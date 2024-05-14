@@ -1,0 +1,21 @@
+###
+
+POST http://localhost:5161/calculateDistance
+accept: application/json
+Content-Type: application/json
+Accept-Language: en-GB
+
+{
+  "calculationType": "Haversine",
+  "startLocation": {
+    "longitude": 179,
+    "latitude": 89
+  },
+  "endLocation": {
+    "longitude": 170,
+    "latitude": 89
+  }
+}
+
+###
+

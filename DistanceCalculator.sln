@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.API", "src\DistanceCalculator.API\DistanceCalculator.API.csproj", "{E03DE257-779B-42CB-90A3-59D4702E405E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.Domain", "src\DistanceCalculator.Domain\DistanceCalculator.Domain.csproj", "{3995879A-8C67-4BC2-B107-5AB0499D8247}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{46A64982-29B4-435A-AA6D-7932168695A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{85FCAD3F-0EBD-4401-9846-B17F721147F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.Domain.Tests", "tests\DistanceCalculator.Domain.Tests\DistanceCalculator.Domain.Tests.csproj", "{484CFBB1-66A6-4BD9-AA21-54DEAD9A1DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.API.Tests", "tests\DistanceCalculator.API.Tests\DistanceCalculator.API.Tests.csproj", "{5A86999A-77EF-4A0E-BB1F-E7B60A394C70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA295D52-305E-4DBB-AD56-46F122154095}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E03DE257-779B-42CB-90A3-59D4702E405E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03DE257-779B-42CB-90A3-59D4702E405E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03DE257-779B-42CB-90A3-59D4702E405E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03DE257-779B-42CB-90A3-59D4702E405E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3995879A-8C67-4BC2-B107-5AB0499D8247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3995879A-8C67-4BC2-B107-5AB0499D8247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3995879A-8C67-4BC2-B107-5AB0499D8247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3995879A-8C67-4BC2-B107-5AB0499D8247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484CFBB1-66A6-4BD9-AA21-54DEAD9A1DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484CFBB1-66A6-4BD9-AA21-54DEAD9A1DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484CFBB1-66A6-4BD9-AA21-54DEAD9A1DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484CFBB1-66A6-4BD9-AA21-54DEAD9A1DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A86999A-77EF-4A0E-BB1F-E7B60A394C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A86999A-77EF-4A0E-BB1F-E7B60A394C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A86999A-77EF-4A0E-BB1F-E7B60A394C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A86999A-77EF-4A0E-BB1F-E7B60A394C70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E03DE257-779B-42CB-90A3-59D4702E405E} = {46A64982-29B4-435A-AA6D-7932168695A5}
+		{3995879A-8C67-4BC2-B107-5AB0499D8247} = {46A64982-29B4-435A-AA6D-7932168695A5}
+		{484CFBB1-66A6-4BD9-AA21-54DEAD9A1DC3} = {85FCAD3F-0EBD-4401-9846-B17F721147F6}
+		{5A86999A-77EF-4A0E-BB1F-E7B60A394C70} = {85FCAD3F-0EBD-4401-9846-B17F721147F6}
+	EndGlobalSection
+EndGlobal
